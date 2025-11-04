@@ -14,7 +14,7 @@ protected:
 
 public:
     
-    Device() = default; //Мне это сам VS посоветовал
+    Device() = default;
     
     Device(const string& b, double p) : brand(b), price(p)
     {
@@ -276,4 +276,5 @@ int main(void)
 
    
     return 0;
+
 }
